@@ -73,7 +73,7 @@ public class ClearOutAndAddRecord implements Runnable{
                 PreparedStatement localPs1 = localConn.prepareStatement("DELETE from  machine_in_detl  where TO_DAYS(NOW())-TO_DAYS(In_time)<"+Integer.parseInt(localOverdue));
                 localPs1.executeUpdate();
                 OutMsg.println("1.清理加药记录过期"+localOverdue+"天的数据完成");
-                PreparedStatement localPs2 = localConn.prepareStatement("DELETE from  machine_in_detl  where TO_DAYS(NOW())-TO_DAYS(In_time)<"+Integer.parseInt(localOverdue));
+                PreparedStatement localPs2 = localConn.prepareStatement("DELETE from  machine_out_detl  where TO_DAYS(NOW())-TO_DAYS(In_time)<"+Integer.parseInt(localOverdue));
                 localPs2.executeUpdate();
                 OutMsg.println("2.清理出药记录过期"+localOverdue+"天的数据完成");
 

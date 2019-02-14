@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysconfig>
+	<!-- 本地数据库URL -->
+	 <config key="localIp">localhost</config>	
+	<!-- 本地数据库名称 -->
+	<config key="localName">hkcdb2</config>
+	<!-- 本地数据库用户名 -->
+	<config key="localUserName">root</config> 
+	<!-- 本地数据库密码 -->
+	<config key="localPwd">qq1223</config>
+	<!-- 本地数据库驱动 -->
+	<config key="localDriver">com.mysql.jdbc.Driver</config>
+	<!--过期数据保存几天overdue-->
+	<config key="localOverdue">7</config>
+
+	<!-- %%%%%%%%%%%%%%%%%%webService接口配置相关%%%%%%%%%%%%%%%%%%% -->
+	<!-- 第一数据库URL -->
+	 <config key="firstIp">localhost</config>	
+	<!-- 第一数据库名称 -->
+	<config key="firstName">hkcdb2</config>
+	<!-- 第一数据库用户名 -->
+	<config key="firstUserName">root</config> 
+	<!-- 第一数据库密码 -->
+	<config key="firstPwd">qq1223</config>
+	<!-- 第一数据库驱动 -->
+	<config key="firstDriver">com.mysql.jdbc.Driver</config>
+	<!-- 第一药房代码 -->
+	<config key="firstPharmacy">030803</config>
+	<!-- 餐前餐中是否单包? 1 单包  2 不单包 -->
+	<config key="firstTake">1</config>
+	
+	<!-- 第二数据库URL -->
+	 <config key="secondIp">localhost</config>	
+	<!-- 第二数据库名称 -->
+	<config key="secondName">wuzhou</config>
+	<!-- 第二数据库用户名 -->
+	<config key="secondUserName">root</config> 
+	<!-- 第二数据库密码 -->
+	<config key="secondPwd">qq1223</config>
+	<!-- 第二数据库驱动 -->
+	<config key="secondDriver">com.mysql.jdbc.Driver</config>
+	<!-- 第二药房代码 -->
+	<config key="secondPharmacy">2</config>
+	
+</sysconfig>

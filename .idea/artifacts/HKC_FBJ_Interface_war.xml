@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HKC_FBJ_Interface:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="HKC_FBJ_Interface.war">
+      <element id="artifact" artifact-name="HKC_FBJ_Interface:war exploded" />
+    </root>
+  </artifact>
+</component>

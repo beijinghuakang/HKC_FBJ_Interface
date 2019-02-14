@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysconfig>
+	<!-- **************************中间表配置************************** -->
+	<!-- his数据库IP -->	
+	<config key="hisIp">192.168.0.222</config>
+	<!--his数据库名称 -->
+	<config key="hisName">hospital</config>	
+	<!-- his数据库用户名 -->	  
+	<config key="hisUserName">sa</config> 
+	<!-- his数据库密码 -->
+	<config key="hisPwd">ztkj</config>  
+	<!-- his数据库类型 1 oracle  2 SQLServer  3 mysql-->     
+	<config key="hisDriver">2</config>		
+	<!-- his数据库驱动 -->
+	<config key="OracleDriver">oracle.jdbc.driver.OracleDriver</config>
+	
+	<!--<config key="SQLServerDriver">com.microsoft.sqlserver.jdbc.SQLServerDriver</config>-->	
+	 <config key="SQLServerDriver">com.microsoft.jdbc.sqlserver.SQLServerDriver</config> 
+	<config key="Driver">com.mysql.jdbc.Driver</config>			
+	<!-- 药房代码 -->
+	<config key="pharmacy">2</config>
+	<!-- 需要包装的药品剂型 用单引号引起来,两种剂型之间用英文状态下,隔开如('片剂','胶囊')-->
+	<config key="dosage">'片剂','胶囊'</config>
+	<!-- 药品信息视图名称 -->
+	<config key="druginfo">HKC_DRUG_INFO</config>
+	<!-- 批次信息视图名称 -->
+	<config key="drugmanuno">HKC_DRUGMANUNO</config>
+	<!-- 医嘱信息表名称 -->
+	<config key="orderinfo">HKC_ORDER_INFO</config>
+	<!-- 医嘱明细表名称 -->
+	<config key="orderdetail">HKC_UNIT_DOSE</config>
+	
+	
+	<!-- **************************webservice服务端************************** -->
+	<!-- 服务器数据库URL -->
+	<config key="serverIp">localhost</config>
+	<!-- 服务器数据库名称 -->
+	<config key="serverName">hkcdb2</config>
+	<!-- 服务器数据库用户名 -->
+	<config key="serverUserName">root</config>
+	<!-- 服务器数据库密码 -->
+	<config key="serverPwd">qq1223</config>
+	<!-- 服务器数据库驱动 -->
+	<config key="serverDriver">com.mysql.jdbc.Driver</config>
+	<!-- **************************webservice客户端************************** -->
+	<!-- 客户端数据库URL -->
+	<config key="clientIp">localhost</config>
+	<!-- 客户端数据库名称 -->
+	<config key="clientName">hkcdb2</config>
+	<!-- 客户端数据库用户名 -->
+	<config key="clientUserName">root</config>
+	<!-- 客户端数据库密码 -->
+	<config key="clientPwd">qq1223</config>
+	<!-- 客户端数据库驱动 -->
+	<config key="clientDriver">com.mysql.jdbc.Driver</config>
+</sysconfig>     

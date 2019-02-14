@@ -82,7 +82,9 @@ public class ClearOutAndAddRecord implements Runnable{
                 e.printStackTrace();
             }
             try {
+                OutMsg.println("清理数据线程进入休眠");
                 Thread.sleep(1000*60*60*24);//一天循环一次
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

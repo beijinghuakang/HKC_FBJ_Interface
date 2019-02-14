@@ -81,7 +81,11 @@ public class ClearOutAndAddRecord implements Runnable{
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-
+            try {
+                Thread.sleep(1000*60*60*24);//一天循环一次
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
     }
